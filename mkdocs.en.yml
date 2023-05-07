@@ -1,0 +1,18 @@
+INHERIT: mkdocs.common.yml
+
+site_author: Laura Paola Piza Hernandez, Joffrey Bienvenu
+site_name: Cheese Making book
+site_url: https://cheesemaking.joffreybvn.be/en/
+docs_dir: 'docs/en'
+
+theme:
+  language: en
+
+plugins:
+  search:
+    lang: en
+  git-revision-date-localized:
+    locale: en
+
+nav:
+  - index.md
