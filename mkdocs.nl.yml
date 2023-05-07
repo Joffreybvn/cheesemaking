@@ -5,6 +5,7 @@ site_name: De Kaasmaken boek
 site_author: Laura Paola Piza Hernandez, Joffrey Bienvenu
 site_url: https://cheesemaking.joffreybvn.be/nl/
 docs_dir: 'docs/nl'
+site_dir: 'site/nl'
 
 theme:
   language: nl
@@ -26,3 +27,5 @@ extra:
 
 nav:
   - index.md
+  - "Recepten":
+      - recipes/queso_blanco.md

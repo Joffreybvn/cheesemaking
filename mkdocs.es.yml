@@ -5,6 +5,7 @@ site_name: Libro de fabricación de queso
 site_author: Laura Paola Piza Hernandez, Joffrey Bienvenu
 site_url: https://cheesemaking.joffreybvn.be/es/
 docs_dir: 'docs/es'
+site_dir: 'site/es'
 
 theme:
   language: es
@@ -26,3 +27,5 @@ extra:
 
 nav:
   - index.md
+  - "Recetas":
+      - recipes/queso_blanco.md

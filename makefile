@@ -7,3 +7,4 @@ site:
 	mkdocs build --config-file=mkdocs.fr.yml
 	mkdocs build --config-file=mkdocs.nl.yml
 	mkdocs build --config-file=mkdocs.es.yml
+	cp ./index.html ./site/index.html

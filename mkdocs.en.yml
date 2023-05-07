@@ -5,6 +5,7 @@ site_name: The Cheese Making book
 site_author: Laura Paola Piza Hernandez, Joffrey Bienvenu
 site_url: https://cheesemaking.joffreybvn.be/en/
 docs_dir: 'docs/en'
+site_dir: 'site/en'
 
 theme:
   language: en
@@ -26,3 +27,5 @@ extra:
 
 nav:
   - index.md
+  - "Recipes":
+      - recipes/queso_blanco.md

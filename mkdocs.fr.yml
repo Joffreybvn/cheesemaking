@@ -5,6 +5,7 @@ site_name: Le livre du Cheesemaker
 site_author: Laura Paola Piza Hernandez, Joffrey Bienvenu
 site_url: https://cheesemaking.joffreybvn.be/fr/
 docs_dir: 'docs/fr'
+site_dir: 'site/fr'
 
 theme:
   language: fr
@@ -26,3 +27,5 @@ extra:
 
 nav:
   - index.md
+  - "Recettes":
+      - recipes/queso_blanco.md
