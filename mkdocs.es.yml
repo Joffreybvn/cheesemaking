@@ -1,0 +1,28 @@
+INHERIT: mkdocs.common.yml
+
+copyright: Copyright &copy; Laura Piza Hernandez y Joffrey Bienvenu - <a href="#__consent">Cambiar la configuración de cookies</a>
+site_name: Libro de fabricación de queso
+site_author: Laura Paola Piza Hernandez, Joffrey Bienvenu
+site_url: https://cheesemaking.joffreybvn.be/es/
+docs_dir: 'docs/es'
+
+theme:
+  language: es
+
+plugins:
+  - search:
+      lang: es
+  - git-revision-date-localized:
+      locale: es
+
+extra:
+  consent:
+    title: Consentement de cookies
+    description: >-
+      Utilizamos cookies para reconocer sus visitas repetidas y preferencias, 
+      así como para medir la efectividad de nuestra documentación y determinar 
+      si los usuarios encuentran lo que buscan. Con su consentimiento, nos 
+      está ayudando a mejorar nuestra documentación.
+
+nav:
+  - index.md

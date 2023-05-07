@@ -19,6 +19,8 @@ python = "3.11.*"
 alembic = "^1.10.2"
 mkdocs-material = "^9.1.9"
 mkdocs-git-revision-date-localized-plugin = "^1.2.0"
+pillow = "^9.5.0"
+cairosvg = "^2.7.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2.0"

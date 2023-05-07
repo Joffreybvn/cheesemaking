@@ -1,0 +1,28 @@
+INHERIT: mkdocs.common.yml
+
+copyright: Copyright &copy; Laura Piza Hernandez & Joffrey Bienvenu - <a href="#__consent">Modifier les paramètres de cookies</a>
+site_name: Le livre du Cheesemaker
+site_author: Laura Paola Piza Hernandez, Joffrey Bienvenu
+site_url: https://cheesemaking.joffreybvn.be/fr/
+docs_dir: 'docs/fr'
+
+theme:
+  language: fr
+
+plugins:
+  - search:
+      lang: fr
+  - git-revision-date-localized:
+      locale: fr
+
+extra:
+  consent:
+    title: Cookie-toestemming
+    description: >-
+      Nous utilisons des cookies pour reconnaître vos visites répétées et vos 
+      préférences, ainsi que pour mesurer l'efficacité de notre documentation 
+      et savoir si les utilisateurs trouvent ce qu'ils cherchent. Avec votre 
+      consentement, vous nous aidez à améliorer notre documentation.
+
+nav:
+  - index.md
